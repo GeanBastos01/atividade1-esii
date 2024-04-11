@@ -24,3 +24,13 @@ function square(v1) {
     return Math.sqrt(v1);
 }
 
+function menu() {
+  console.log("----------------------------------------")
+  console.log("1. Soma")
+  console.log("2. Subtração")
+  console.log("3. Divisão")
+  console.log("4. Multiplicação")
+  console.log("5. Raiz quadrada")
+  console.log("6. Sair")
+  console.log("----------------------------------------")
+}
