@@ -35,3 +35,31 @@ function menu() {
   console.log("6. Sair")
   console.log("----------------------------------------")
 }
+
+while (true) {
+  menu()
+  let escolha = Number(prompt("Digite a escolha:"))
+  if (escolha == 1) {
+      n1 = Number(prompt("Digite o 1° Número: "))
+      n2 = Number(prompt("Digite o 2° Número: "))
+      console.log(sum(n1,n2))
+  } else if (escolha == 2) {
+      n1 = Number(prompt("Digite o 1° Número: "))
+      n2 = Number(prompt("Digite o 2° Número: "))
+      console.log(sub(n1,n2))
+  } else if (escolha == 3) {
+      n1 = Number(prompt("Digite o 1° Número: "))
+      n2 = Number(prompt("Digite o 2° Número: "))
+      console.log(div(n1,n2))
+  } else if (escolha == 4) {
+      n1 = Number(prompt("Digite o 1° Número: "))
+      n2 = Number(prompt("Digite o 2° Número: "))
+      console.log(mult(n1,n2))
+  } else if (escolha == 5) {
+      n1 = Number(prompt("Digite o Número: "))
+      console.log(square(n1))
+  } else {
+      break
+  }
+
+}
