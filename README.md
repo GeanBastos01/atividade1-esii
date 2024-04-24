@@ -3,6 +3,7 @@
 ## 🔐 Pré requisitos
 
 <a href="https://nodejs.dev/">Node</a> &nbsp;
+prompt-sync
 
 ## Instalação do Projeto
 
